@@ -12,4 +12,4 @@ if number > 10:
         if last_digit > highest_number:
             highest_number = last_digit
     print(f"Самая большая цифра введенного числа: {highest_number}")
-    
+
