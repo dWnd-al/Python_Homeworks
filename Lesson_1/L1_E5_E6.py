@@ -11,11 +11,11 @@
 income = int(input("Введите сумму выручки "))
 costs = int(input("Введите сумму издержек "))
 if income > costs:
-    print("Контора приносит прибыль")
-    print("Рентабельность выручки: ", (income - costs) / income)
+    print(f"Контора приносит прибыль")
+    print(f"Рентабельность выручки: {(income - costs) / income}")
     staff_size = int(input("Введите кол-во сотрудников "))
-    print("Прибыль конторы на одного сотрудника:", (income - costs) / staff_size)
+    print(f"Прибыль конторы на одного сотрудника: {(income - costs) / staff_size}")
 if income < costs:
-    print("Контора работает в убыток")
+    print(f"Контора работает в убыток")
 if income == costs:
-    print("Контора работает в 0")
+    print(f"Контора работает в 0")
