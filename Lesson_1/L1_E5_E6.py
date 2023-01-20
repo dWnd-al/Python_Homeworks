@@ -15,7 +15,7 @@ if income > costs:
     print(f"Рентабельность выручки: {(income - costs) / income}")
     staff_size = int(input("Введите кол-во сотрудников "))
     print(f"Прибыль конторы на одного сотрудника: {(income - costs) / staff_size}")
-if income < costs:
+elif income < costs:
     print(f"Контора работает в убыток")
-if income == costs:
+else:
     print(f"Контора работает в 0")
