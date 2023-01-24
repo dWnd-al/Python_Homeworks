@@ -12,6 +12,5 @@ my_dict = {"Var_1": 100, "Var_2": True}
 my_list = [2, 3.1415926, 'some text', None, False, complex(5, 6),
            list_1, tuple_string, my_var, my_dict]
 print(f"Список: {my_list}")
-for position_in_list in range(len(my_list)):
-    print(f"Тип элемента \"{my_list[position_in_list]}\" - "
-          f"{str(type(my_list[position_in_list]))[8:-2]}")
+for el in my_list:
+    print(f"Тип элемента \"{el}\" - {str(type(el))[8:-2]}")
