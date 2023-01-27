@@ -34,12 +34,12 @@ while True:
     Смотрим на последний введенный символ, если это e - завершаем цикл
     Заодно проверяем, ввел пользователь какие-либо числа перед e или нет
     """
-    if (input_str[-1] == 'e'
-            and any(st.isdigit() for st in input_str)):
+    if input_str[-1] == 'e'\
+            and any(st.isdigit() for st in input_str):
         global_summ += summ_count(input_str[:-1], global_summ)
         break
-    elif (input_str[-1] == 'e'
-          and any(st.isdigit() for st in input_str) is False):
+    elif input_str[-1] == 'e'\
+            and any(st.isdigit() for st in input_str) is False:
         global_summ += summ_count("0", global_summ)
         break
     else:
