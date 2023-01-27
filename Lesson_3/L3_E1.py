@@ -6,10 +6,10 @@
 
 
 def my_div(val1, val2):
-    if val2 == 0:
-        return 'делить на 0 нельзя'
-    else:
+    try:
         return val1 / val2
+    except ZeroDivisionError:
+        return 'делить на 0 нельзя'
 
 
 print(f"Реультат деления: "
