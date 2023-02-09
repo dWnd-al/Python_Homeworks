@@ -48,7 +48,6 @@ class Cell:
         self.subcells /= other.subcells
         return Cell(str(int(self.subcells)), self.r_length)
 
-
     def makeorder(self):
         self.out_str = ''
         count = 0
