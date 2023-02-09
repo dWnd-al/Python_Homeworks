@@ -44,9 +44,10 @@ class Cell:
         self.subcells *= other.subcells
         return Cell(str(self.subcells), self.r_length)
 
-    def __floordiv__(self, other):
-        self.subcells //= other.subcells
-        return Cell(str(self.subcells), self.r_length)
+    def __truediv__(self, other):
+        self.subcells /= other.subcells
+        return Cell(str(int(self.subcells)), self.r_length)
+
 
     def makeorder(self):
         self.out_str = ''
@@ -127,7 +128,7 @@ while True:
         tmp_cell = Cell(int(basic_vars[0]), int(basic_vars[2]))
         try:
             print(f"{my_divider}\nЧастное от деления ячеек:"
-                  f" {tmp_cell // cell2}\n{my_divider}")
+                  f" {tmp_cell / cell2}\n{my_divider}")
         except ZeroDivisionError:
             print(f"{my_divider}\nНа ноль делить нельзя!\n{my_divider}")
     elif selection == "5":
