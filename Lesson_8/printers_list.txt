@@ -1,0 +1,8 @@
+printer,HP,hp_model_1,laser,no,YGJ-834819
+printer,HP,hp_model_2,laser,yes,CYP-504493
+printer,HP,hp_model_3,ink,no,PVC-155594
+printer,HP,hp_model_4,matrix,no,JUB-312135
+printer,Epson,epson_model_1,laser,no,JCR-757429
+printer,Epson,epson_model_2,laser,yes,VRY-942766
+printer,Epson,epson_model_3,ink,no,YXH-868120
+printer,Epson,epson_model_4,matrix,no,AZB-983057
