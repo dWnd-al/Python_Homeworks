@@ -1,0 +1,8 @@
+scanner,HP,hp_model_1,flatbed,ZBS-794200
+scanner,HP,hp_model_2,handheld,JIA-414528
+scanner,HP,hp_model_3,flatbed,NUO-581968
+scanner,HP,hp_model_4,handheld,IQN-943127
+scanner,Epson,epson_model_1,flatbed,ITY-131643
+scanner,Epson,epson_model_2,handheld,NRA-872158
+scanner,Epson,epson_model_3,flatbed,DFN-153690
+scanner,Epson,epson_model_4,handheld,FKS-916570
